@@ -1,0 +1,24 @@
+{
+  "name": "secondproj",
+  "version": "1.0.0",
+  "description": "Second proj create",
+  "main": "main.js",
+  "scripts": {
+    "serve": "parcel ./src/index.html -p 2320 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "keywords": [
+    "js",
+    "javascript"
+  ],
+  "author": "ivanSpi <ivannotnull@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "assemble": "^0.3.83",
+    "grunt": "^0.4.5",
+    "styles": "^0.2.1"
+  }
+}
